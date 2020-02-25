@@ -9,6 +9,6 @@ public class PriceComparator implements Comparator<Pillow> {
 
     @Override
     public int compare(Pillow o1, Pillow o2) {
-        return o1.getPrice() - o2.getPrice();
+        return o1.getPrice() > o2.getPrice() ? 1 : 0;
     }
 }

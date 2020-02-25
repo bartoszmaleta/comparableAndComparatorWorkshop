@@ -3,6 +3,7 @@ package com.company;
 import com.company.comparators.PriceComparator;
 import com.company.comparators.SoftnessComparator;
 
+import java.net.CookieHandler;
 import java.text.CollationElementIterator;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -49,6 +50,8 @@ public class Main {
         // Compare weight Compare pillow1 with pillow2
         System.out.println(pillow1.compareTo(pillow2) == 1 ? "Pillow 1 weighs more!" : "Pillow 2 weighs more!");
         System.out.println("-------------------------------------------------------");
+
+
 
     }
 
